@@ -12,7 +12,7 @@
     <title>Titulo</title>
 </head>
 <br>
-        Test Spring sin web.xml
+        Test Spring sin web.xml jajaja
         <br></br>
         <a href='<c:url value="index"/> '>index </a>
 
