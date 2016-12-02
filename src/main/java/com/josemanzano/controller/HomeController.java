@@ -9,8 +9,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/home")
     public String home(){
+        return "home";
+    }
+    @RequestMapping(value = "/index")
+    public String index(){
+        return "index";
+    }
+
+    @RequestMapping(value = "/test")
+    public String test(){
+        return "test";
+    }
+    @RequestMapping(value = "/")
+    public String default_page(){
         return "home";
     }
 }
