@@ -14,6 +14,11 @@
 <br>
         Test Spring sin web.xml
         <br></br>
+
+        <c:out value="${mensaje}"></c:out>
+        <c:out value="${mensaje}"></c:out>
+        <br></br>
+
         <a href='<c:url value="index"/> '>index </a>
 
 
