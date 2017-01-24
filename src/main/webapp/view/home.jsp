@@ -12,7 +12,7 @@
     <title>Titulo</title>
 </head>
 <br>
-        Test Spring sin web.xml
+        Test Spring sin web.xml jajaja
         <br></br>
 
         <c:out value="${mensaje}"></c:out>
