@@ -32,7 +32,7 @@ public class HomeController {
     @RequestMapping(value = "/")
     public String default_page(Model model){
         model.addAttribute("resultado", "resultado");
-        model.addAttribute("mensaje", "mensaje desde el controlador");
+        model.addAttribute("mensaje", "mensaje desde el controlador  ");
 
 
         return "home";
