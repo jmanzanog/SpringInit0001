@@ -33,8 +33,6 @@ public class HomeController {
     public String default_page(Model model){
         model.addAttribute("resultado", "resultado");
         model.addAttribute("mensaje", "mensaje desde el controlador  ");
-
-
         return "home";
     }
 }
